@@ -31,3 +31,9 @@
 - Видео-презентация: [Смотреть](https://disk.yandex.ru/i/a6MxhfpL2y26zA) 
 
 **Скриншоты:**
+
+![Скриншот 1](Веб-сайт IT-институт Галерея.png)
+![Скриншот 2](https://github.com/)
+![Скриншот 3](https://github.com/)
+![Скриншот 4](https://github.com/)
+
