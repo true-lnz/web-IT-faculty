@@ -15,6 +15,6 @@
 **Ссылки:**
 
 - Демо: [Пока нет демо сайта...](https://example.com)
-- Статья: [https://docs.example.com](https://docs.example.com)
+- Статья: [Разработка нового сайта IT-института](https://disk.yandex.ru/d/Chs2rnBlCtSiGw)
 
 **Скриншоты:**
