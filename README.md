@@ -26,7 +26,7 @@
 
 **Ссылки:**
 
-- Демо: [Пока нет демо сайта...](https://example.com)
+- Демо: [Клик](https://true-lnz.github.io/web-IT-faculty/)
 - Статья: [Разработка нового сайта IT-института](https://disk.yandex.ru/d/Chs2rnBlCtSiGw)
 - Видео-презентация: [Смотреть](https://disk.yandex.ru/i/a6MxhfpL2y26zA) 
 
