@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../../repos"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../java"
+		},
+		{
+			"path": "../../../../OneDrive/Desktop/staff-engine"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html",
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}

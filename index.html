@@ -20,8 +20,8 @@
 </head>
 
 <body>
-	<div id="home" class="top-bar">
-		<div class="content mx-md-2">
+	<div id="top" class="top-bar">
+		<div class="content">
 			<div class="top-bar-left contacts">				
 				<a href="mailto:fapp@rusoil.net"><i class="fas fa-envelope"></i>fapp@rusoil.net</a>
 				<span class="mx-md-0 d-inline-block"></span> <!--пустышка-->				
@@ -49,7 +49,7 @@
 	</div>
 
 	<header class="site-navbar" role="banner">
-		<div class="site-logo mx-md-2">
+		<div class="site-logo">
 			<img src="../web-IT-faculty/images/it-logo.png" alt="">
 			<a href="index.html">Институт Цифровых Систем,<br>Автоматизации и Энергетики</a>
 		</div>
@@ -180,34 +180,34 @@
 			<li><a href="#gallery">Галерея</a></li>
 			<li><a href="#about">О факультете</a></li>
 		</ul>
-		<button class="abitur-btn mx-md-2">Подать документы</button>
-		<button class="menu-btn mx-md-1"><i class="fa fa-bars"></i></button>
+		<button class="abitur-btn">Подать документы</button>
+		<button class="menu-btn"><i class="fa fa-bars"></i></button>
 	</header>
 
-	<div class="hero rounded-bottom noselect">
-		<div class="justify-center content">
-			<div class="main-text">
-				<div class="main-text-header">
-					<h1>Добро пожаловать в IT! <i class="fas fa-stream fa-sm"></i></h1>
-					<h2><i class="fas fa-stream"></i> Яркий. Сочный. Твой.</h2>
-				</div>
-				<div class="main-text-footer">
-					<h4>Поступай в IT!</h4>
-					<p>Ждём умных, ярких, спортивных, амбициозных <br>и самых лучших студентов в нашу большую IT-семью!</p>
-				</div> 
-			</div>
-			<img  class="main-image" src="../web-IT-faculty/images/main.png" alt="main-image">
-			<div class="swipe">
-				<a href="#news" style="text-decoration: none;">Новости<br><i class="fa fa-angle-down" style="font-size: 12px;"></i>
-				</a>
-			</div>
-		</div>
-	</div>
-
 	<main>
+		<section class="hero rounded-bottom noselect">
+			<div class="justify-center content">
+				<div class="main-text">
+					<div class="main-text-header">
+						<h1>Добро пожаловать в IT! <i class="fas fa-stream fa-sm"></i></h1>
+						<h2><i class="fas fa-stream"></i> Яркий. Сочный. Твой.</h2>
+					</div>
+					<div class="main-text-footer">
+						<h4>Поступай в IT!</h4>
+						<p>Ждём умных, ярких, спортивных, амбициозных <br>и самых лучших студентов в нашу большую IT-семью!</p>
+					</div> 
+				</div>
+				<img  class="main-image" src="../web-IT-faculty/images/main.png" alt="main-image">
+				<div class="swipe">
+					<a href="#news" style="text-decoration: none;">Новости<br><i class="fa fa-angle-down" style="font-size: 12px;"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+
 		<section id="news">
-			<div class="block-header">
-				<h2 class="block-header-title">Новости</h2>
+			<div class="section-header">
+				<h2 class="section-header-title">Новости</h2>
 				<button class="news-btn">Смотреть все новости</button>
 			</div>
 			<div class="news-row-start">
@@ -219,13 +219,13 @@
 				</div>
 				<div class="news-item bg-picture">
 					<time class="news-time">23 июн. 16:00</time>
-					<h3 class="news-title">Не фиксики, <br>но друзья <br>с электроникой!<br>Торжественное вручение дипломов</h3>
+					<h3 class="news-title">Не фиксики, но друзья с электроникой! Торжественное вручение дипломов</h3>
 					<img class="news-img" src="/web-IT-faculty/images/news2.jpg" alt="">
 					<p class="news-more">Подробнее</p>
 				</div>
 				<div class="news-item mini">
 					<time class="news-time">09 июн. 16:00</time>
-					<h3 class="news-title">Курсовая как <br>ступень <br>к идеальному диплому!</h3>
+					<h3 class="news-title">Курсовая как ступень к идеальному диплому!</h3>
 					<img class="news-img" src="/web-IT-faculty/images/test.png" alt="">
 					<p class="news-more">Подробнее</p>
 				</div>
@@ -237,17 +237,19 @@
 				</div>
 			</div>
 			<div class="news-row-end">
-				<div class="news-item mini">
-					<time class="news-time">08 сен. 10:00</time>
-					<h3 class="news-title">В чëм сила <br>группы? Награждения <br>старост - 2023</h3>
-					<img class="news-img" src="/web-IT-faculty/images/test.png" alt="">
-					<p class="news-more">Подробнее</p>
-				</div>
-				<div class="news-item bg-picture mini">
-					<time class="news-time">16 июн. 18:45</time>
-					<h3 class="news-title">Гала-концерт «Студвесна-2023»</h3>
-					<img class="news-img" src="/web-IT-faculty/images/news6.jpg" alt="">
-					<p class="news-more">Подробнее</p>
+				<div style="display: flex;">
+					<div class="news-item mini">
+						<time class="news-time">08 сен. 10:00</time>
+						<h3 class="news-title">В чëм сила группы? Награждения старост - 2023</h3>
+						<img class="news-img" src="/web-IT-faculty/images/test.png" alt="">
+						<p class="news-more">Подробнее</p>
+					</div>
+					<div class="news-item bg-picture mini">
+						<time class="news-time">16 июн. 18:45</time>
+						<h3 class="news-title">Гала-концерт «Студвесна-2023»</h3>
+						<img class="news-img" src="/web-IT-faculty/images/news6.jpg" alt="">
+						<p class="news-more">Подробнее</p>
+					</div>
 				</div>
 				<div class="news-item mini">
 					<time class="news-time">07 июн. 22:00</time>
@@ -268,59 +270,61 @@
 			</div>
 		</section>
 
-		<section id="abitur" class="rounded-top">
-			<div class="block-header">
+		<section id="abitur" class="rounded-top rounded-bottom">
+			<div class="section-header">
 				<h2>Направления и программы</h2>
 				<button class="news-btn">Еще</button>
 			</div>
-			<div class="item">
-				<div class="item-info">
-					<p class="item-title">Бакалавриат</p>
-					<p class="item-second">33 направления</p>
+			<div class="items-container">
+				<div class="item">
+					<div class="item-info">
+						<p class="item-title">Бакалавриат</p>
+						<p class="item-second">33 направления</p>
+					</div>
+					<img class="item-picture" src="/web-IT-faculty/images/Knowledge3.png" alt="">
 				</div>
-				<img class="item-picture" src="/web-IT-faculty/images/Knowledge3.png" alt="">
-			</div>
-			<div class="item mini">
-				<div class="item-info">
-					<p class="item-title">Специалитет</p>
-					<p class="item-second">4 направления</p>
+				<div class="item mini">
+					<div class="item-info">
+						<p class="item-title">Специалитет</p>
+						<p class="item-second">4 направления</p>
+					</div>
+					<img class="item-picture" src="/web-IT-faculty/images/Knowledge1.png" alt="">
 				</div>
-				<img class="item-picture" src="/web-IT-faculty/images/Knowledge1.png" alt="">
-			</div>
-			<div class="item mini">
-				<div class="item-info">
-					<p class="item-title">Samsung IT Академия</p>
-					<p class="item-second">2 направления</p>
+				<div class="item mini">
+					<div class="item-info">
+						<p class="item-title">Samsung IT Академия</p>
+						<p class="item-second">2 направления</p>
+					</div>
+					<img class="item-picture" src="/web-IT-faculty/images/Knowledge5.png" alt="">
 				</div>
-				<img class="item-picture" src="/web-IT-faculty/images/Knowledge5.png" alt="">
-			</div>
-			<div class="item">
-				<div class="item-info">
-					<p class="item-title">Магистратура</p>
-					<p class="item-second">7 направлений</p>
+				<div class="item">
+					<div class="item-info">
+						<p class="item-title">Магистратура</p>
+						<p class="item-second">7 направлений</p>
+					</div>
+					<img class="item-picture" src="/web-IT-faculty/images/Knowledge2.png" alt="">
 				</div>
-				<img class="item-picture" src="/web-IT-faculty/images/Knowledge2.png" alt="">
-			</div>
-			<div class="item mini">
-				<div class="item-info">
-					<p class="item-title">Другие программы</p>
-					<p class="item-second">3 направления</p>
+				<div class="item mini">
+					<div class="item-info">
+						<p class="item-title">Другие программы</p>
+						<p class="item-second">3 направления</p>
+					</div>
+					<img class="item-picture" src="/web-IT-faculty/images/Knowledge6.png" alt="">
 				</div>
-				<img class="item-picture" src="/web-IT-faculty/images/Knowledge6.png" alt="">
-			</div>
-			<div class="item mini">
-				<div class="item-info">
-					<p class="item-title">Наука</p>
-					<p class="item-second">2 направления</p>
+				<div class="item mini">
+					<div class="item-info">
+						<p class="item-title">Наука</p>
+						<p class="item-second">2 направления</p>
+					</div>
+					<img class="item-picture" src="/web-IT-faculty/images/Knowledge4.png" alt="">
 				</div>
-				<img class="item-picture" src="/web-IT-faculty/images/Knowledge4.png" alt="">
-			</div>
-			<div class="item mini">
-				<div class="item-info">
-					<p class="item-title">Дополнительное образование</p>
-					<p class="item-second">10 направлений</p>
+				<div class="item mini">
+					<div class="item-info">
+						<p class="item-title">Дополнительное образование</p>
+						<p class="item-second">10 направлений</p>
+					</div>
+					<img class="item-picture" src="/web-IT-faculty/images/Knowledge3.png" alt="">
 				</div>
-				<img class="item-picture" src="/web-IT-faculty/images/Knowledge3.png" alt="">
 			</div>
 		</section>
 	
@@ -328,11 +332,13 @@
 		</section>
 
 		<section id="gallery">
-			<div class="block-header">
-				<h2 class="block-header-title">Фотогалерея</h2>
+			<div class="section-header">
+				<h2 class="section-header-title">Фотогалерея</h2>
 			</div>
 			<div class="horizontal-scroll-wrapper">
-				<div class="scroll-right">Назад</div>
+				<div class="scroll-item">
+					<a class="rounded-btn fill" href="">Все альбомы</a>
+				</div>
 				<div class="scroll-item">
 					<a class="rounded-btn" href="">Концерты</a>
 				</div>
@@ -349,82 +355,70 @@
 					<a class="rounded-btn" href="">Спорт</a>
 				</div>
 				<div class="scroll-item">
-					<a class="rounded-btn fill" href="">Другое</a>
-				</div>
-				<div class="scroll-item">
-					<a class="rounded-btn" href="">Творчество</a>
-				</div>
-				<div class="scroll-item">
-					<a class="rounded-btn" href="">Награждения</a>
-				</div>
-				<div class="scroll-item">
-					<a class="rounded-btn" href="">Спорт</a>
-				</div>
-				<div class="scroll-item">
-					<a class="rounded-btn fill" href="">Другое</a>
+					<a class="rounded-btn" href="">Другое</a>
 				</div>
 			</div>
 			<div class="photos-wrapper">
 				<div class="left-column">
 						<div class="photo-item">
-								<img src="./images/gallery/test1.jpeg" alt="Описание 1">
+								<img src="./images/gal7.jpg" alt="Описание 1">
 								<div class="photo-overlay">
-										<h3 class="photo-title">Заголовок 1</h3>
-										<span class="photo-date">01.09.2023</span>
+										<h3 class="photo-title">Межфакультетский волейбол 2024</h3>
+										<span class="photo-date">01.09.2024</span>
 								</div>
 						</div>
 						<div class="photo-item">
-							<img src="./images/gallery/test1.jpeg" alt="Описание 1">
+							<img src="./images/gal8.jpg" alt="Описание 1">
 							<div class="photo-overlay">
-									<h3 class="photo-title">Заголовок 1</h3>
-									<span class="photo-date">01.09.2023</span>
+									<h3 class="photo-title">Отчетно-выборная конференция 2024</h3>
+									<span class="photo-date">01.09.2024</span>
 							</div>
 					</div>
 					<div class="photo-item">
-						<img src="./images/gallery/test1.jpeg" alt="Описание 1">
+						<img src="./images/gal1.jpg" alt="Описание 1">
 						<div class="photo-overlay">
-								<h3 class="photo-title">Заголовок 12</h3>
-								<span class="photo-date">01.09.2023</span>
+								<h3 class="photo-title">Вручение дипломов IT-академии</h3>
+								<span class="photo-date">01.09.2024</span>
 						</div>
 					</div>
 				</div>
 				<div class="right-column">
-					<div class="photo-item">
-						<img src="./images/gallery/test1.jpeg" alt="Описание 1">
+					<div class="photo-item A">
+						<img src="./images/gal2.jpg" alt="Описание 1">
 						<div class="photo-overlay">
-								<h3 class="photo-title">Заголовок 1</h3>
-								<span class="photo-date">01.09.2023</span>
+								<h3 class="photo-title">Студенческая весна 2024</h3>
+								<span class="photo-date">01.09.2024</span>
 						</div>
 					</div>
-					<div class="photo-item">
-						<img src="./images/gallery/test1.jpeg" alt="Описание 1">
+					<div class="photo-item B">
+						<img src="./images/gal3.jpg" alt="Описание 1">
 						<div class="photo-overlay">
-								<h3 class="photo-title">Заголовок 1</h3>
-								<span class="photo-date">01.09.2023</span>
+								<h3 class="photo-title">Киновечер 2024</h3>
+								<span class="photo-date">01.09.2024</span>
 						</div>
 					</div>
-					<div class="photo-item">
-						<img src="./images/gallery/test1.jpeg" alt="Описание 1">
+					<div class="photo-item C">
+						<img src="./images/gal4.jpg" alt="Описание 1">
 						<div class="photo-overlay">
-								<h3 class="photo-title">Заголовок 1</h3>
-								<span class="photo-date">01.09.2023</span>
+								<h3 class="photo-title">День IT-интитута</h3>
+								<span class="photo-date">01.09.2024</span>
 						</div>
 					</div>
-					<div class="photo-item">
-						<img src="./images/gallery/test1.jpeg" alt="Описание 1">
+					<div class="photo-item D">
+						<img src="./images/gal6.jpg" alt="Описание 1">
 						<div class="photo-overlay">
-								<h3 class="photo-title">Заголовок 1</h3>
-								<span class="photo-date">01.09.2023</span>
+								<h3 class="photo-title">Гала-концерт "Премьер 2024"</h3>
+								<span class="photo-date">01.09.2024</span>
 						</div>
 					</div>
-					<div class="view-all-btn">Смотреть все альбомы</div>
+					<a class="view-all-btn E">Все альбомы</a>
 				</div>
 		</div>
 		</section>
 
 		<section id="about">
 			<div class="faculty">
-				<div class="block-header">
+				<div class="section-header">
 					<h2>О факультете</h2>
 				</div>
 				<div class="faculty-img">
@@ -448,14 +442,32 @@
 	
 		</section>
 
-		<button class="arrow-btn" onclick=""><i class="fa fa-arrow-up"></i></button>
+    <div class="arrow-container">
+        <a class="arrow-up" href="#top">
+            <svg width="2rem" height="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <path d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"/>
+            </svg>
+        </a>
+    </div>
 		
 	</main>
 
 	<footer class="footer">
 		<div class="partners">
-			<h3>Наши партнеры</h3>
+			<h2 class="partners-title">Наши партнеры</h2>
 			<div class="horizontal-scroll-wrapper">
+				<div class="scroll-item">
+					<img class="partner-logo" src="/web-IT-faculty/images/samsung-it-academy.png" alt="samsung-it-academy">
+				</div>
+				<div class="scroll-item">
+					<img class="partner-logo" src="/web-IT-faculty/images/transneft-ural.png" alt="transneft-ural">
+				</div>
+				<div class="scroll-item">
+					<img class="partner-logo" src="/web-IT-faculty/images/rosneft.png" alt="rosneft">
+				</div>
+				<div class="scroll-item">
+					<img class="partner-logo" src="/web-IT-faculty/images/gazprom.png" alt="gazprom">
+				</div>
 				<div class="scroll-item">
 					<img class="partner-logo" src="/web-IT-faculty/images/samsung-it-academy.png" alt="samsung-it-academy">
 				</div>
@@ -470,54 +482,89 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer-column">
-			<h4>Институт Цифровых Систем,<br>Автоматизации и Энергетики</h4>
-			<div class="footer-links">
-				<a href="">ул. Космонафтов, г. Уфа, д. 1, каб. 255, 256<br>пн-чт с 9:00 до 17:00, пт с 9:00 до 13:00</a>
-				<a href=""><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9d66892b4e1ef66834742edddb47a5c4587539d9af845c0a08e33eb5ae70feed&amp;source=constructor" width="300" height="150" frameborder="0" style="border-radius: 13px;margin-top:1rem;"></iframe></a>
+		<div class="footer-container">
+			<div class="footer-column" style="width: 22vw;">
+				<div style="display: flex; align-items: center">
+					<img style="height: 3rem; margin-bottom: 1vw; margin-right: 0.5rem;" src="./images/LOGO_ayti.png" alt="">
+					<h4 class="footer-title">Институт Цифровых Систем, Автоматизации и Энергетики</h4>
+				</div>
+				<div class="footer-links">
+					<a href="">ул. Космонафтов, г. Уфа, д. 1, каб. 255, 256<br>пн-чт с 9:00 до 17:00, пт с 9:00 до 13:00</a>
+
+					<div class="footer-social">
+						<a href="https://vk.com/profburoapp/">
+							<svg width="32px" height="32px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M3.4 3.4C2 4.81333 2 7.07333 2 11.6V12.4C2 16.92 2 19.18 3.4 20.6C4.81333 22 7.07333 22 11.6 22H12.4C16.92 22 19.18 22 20.6 20.6C22 19.1867 22 16.9267 22 12.4V11.6C22 7.08 22 4.82 20.6 3.4C19.1867 2 16.9267 2 12.4 2H11.6C7.08 2 4.82 2 3.4 3.4ZM5.37333 8.08667C5.48 13.2867 8.08 16.4067 12.64 16.4067H12.9067V13.4333C14.58 13.6 15.8467 14.8267 16.3533 16.4067H18.72C18.4773 15.5089 18.0469 14.6727 17.4574 13.9533C16.8679 13.234 16.1326 12.6478 15.3 12.2333C16.0461 11.779 16.6905 11.1756 17.1929 10.461C17.6953 9.7464 18.045 8.93585 18.22 8.08H16.0733C15.6067 9.73334 14.22 11.2333 12.9067 11.3733V8.08667H10.7533V13.8467C9.42 13.5133 7.74 11.9 7.66666 8.08667H5.37333Z"/>
+								</svg>
+						</a>
+						<a href="https://web.telegram.org/a/#-1002066455637">
+							<svg width="32px" height="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+								<path class="st0" d="M518.2,284L320.8,463.6l-7.6,83.5l-40.5-121.5l232.8-146.8C515.7,271.3,525.8,276.4,518.2,284z"/>
+								<path class="st0" d="M733.3,413.3c0.8-137.1,2.5-259.5-46.7-300c-39.9-49.2-162.9-47.6-300-46.7c-150.7,0-226,0-273.3,46.7
+									c-46.7,47.1-46.7,122.5-46.7,273.3c-0.8,137.1-2.5,259.5,46.7,300c39.9,49.2,162.9,47.6,300,46.7C710.7,737.9,738,711,733.3,413.3z
+									M599.2,240.9l-70.9,331.5c-5.1,22.8-17.7,27.8-38,17.7l-106.3-78.4c-25.3,25.3-48.1,48.1-50.6,50.6c-5.1,5.1-10.1,10.1-20.2,10.1
+									c-12.7,0-10.1-5.1-15.2-17.7l-40.5-121.5l-103.8-32.9c-22.8-5.1-22.8-22.8,5.1-32.9L571.4,208C589.1,197.9,606.8,213.1,599.2,240.9z"/>
+							</svg>
+						</a>
+						<a href="">
+							<svg width="32px" height="32px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+								<path class="st0" d="M490.4,342.3v24.2c0,8.7-2.1,14.3-5.6,17.3c-3.4,3-10.3,4.3-20.1,4.3v0H296.5v-67.4h168.3
+									c9.8,0,16.7,1.7,20.1,4.8C488.3,328.5,490.4,334.1,490.4,342.3z"/>
+								<path class="st0" d="M733.3,413.3c0.8-137.1,2.5-259.5-46.7-300c-39.9-49.2-162.9-47.6-300-46.7c-150.7,0-226,0-273.3,46.7
+									c-46.7,47.1-46.7,122.5-46.7,273.3c-0.8,137.1-2.5,259.5,46.7,300c39.9,49.2,162.9,47.6,300,46.7C710.7,737.9,738,711,733.3,413.3z
+										M490.4,545.4L428,451.6H296.5v93.8h-71.4V257.1h251.2v0c15.8,0,28.6,1.7,38.9,4.8c10.3,3.5,18.8,8.7,26.5,16
+									c7.3,7.8,12.4,16.4,15.4,26.4c3,9.9,4.7,22.9,4.7,39.3v21.6c0,27.7-4.7,48.4-14.1,61.4c-9.4,13-20.8,20.8-46.1,24.6l68.8,94.2H490.4
+									z M625.2,257.1c-30.3,0-54.8-24.5-54.8-54.8c0-30.3,24.5-54.8,54.8-54.8c30.3,0,54.8,24.5,54.8,54.8
+									C680,232.5,655.4,257.1,625.2,257.1z"/>
+					 		</svg>
+						</a>
+					</div>
+
+					<a href=""><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9d66892b4e1ef66834742edddb47a5c4587539d9af845c0a08e33eb5ae70feed&amp;source=constructor" width="300" height="150" frameborder="0" style="border-radius: 13px;margin-top:1rem;"></iframe></a>
+				</div>
 			</div>
-		</div>
-		<div class="footer-column">
-			<h4>События и новости</h4>
-			<div class="footer-links">
-				<a href="">Последние новости</a>
-				<a href="">Предстоящие события</a>
-				<a href="">Фотогалерея мероприятий</a>
-				<a href="">Студенческая жизнь</a>
+			<div class="footer-column">
+				<h4 class="footer-title">События и новости</h4>
+				<div class="footer-links">
+					<a href="">Последние новости</a>
+					<a href="">Предстоящие события</a>
+					<a href="">Фотогалерея мероприятий</a>
+					<a href="">Студенческая жизнь</a>
+				</div>
 			</div>
-		</div>
-		<div class="footer-column">
-			<h4>Полезные ссылки</h4>
-			<div class="footer-links">
-				<a href="">Личный кабинет студента</a>
-				<a href="">Личный кабинет абитуриента</a>
-				<a href="">Расписания занятий</a>
-				<a href="">Правила и документы</a>
-				<a href="">Инструкция по оплате обучения</a>
-				<a href="">Часто задаваемые вопросы</a>
+			<div class="footer-column">
+				<h4 class="footer-title">Полезные ссылки</h4>
+				<div class="footer-links">
+					<a href="">Личный кабинет студента</a>
+					<a href="">Личный кабинет абитуриента</a>
+					<a href="">Расписания занятий</a>
+					<a href="">Правила и документы</a>
+					<a href="">Инструкция по оплате обучения</a>
+					<a href="">Часто задаваемые вопросы</a>
+				</div>
 			</div>
-		</div>
-		<div class="footer-column">
-			<h4>Партнерам</h4>
-			<div class="footer-links">
-				<a href="">Сотрудничество в образовании</a>
-				<a href="">Научное сотрудничество</a>
-				<a href="">Вакансии для выпускников</a>
-				<a href="">Стажировка и практика</a>
+			<div class="footer-column">
+				<h4 class="footer-title">Партнерам</h4>
+				<div class="footer-links">
+					<a href="">Сотрудничество в образовании</a>
+					<a href="">Научное сотрудничество</a>
+					<a href="">Вакансии для выпускников</a>
+					<a href="">Стажировка и практика</a>
+				</div>
 			</div>
-		</div>
-		<div class="footer-column">
-			<h4>Контакты</h4>
-			<div class="footer-links">
-				<a href="" class="general">+7 (347) 242 08-51</a>
-				<a href="">fapp@rusoil.net</a>
-				<a href="">Контактная информация</a>
-				<a href="">Электронная приемная</a>
+			<div class="footer-column">
+				<h4 class="footer-title">Контакты</h4>
+				<div class="footer-links">
+					<a href="" class="general">+7 (347) 242 08-51</a>
+					<a href="">fapp@rusoil.net</a>
+					<a href="">Контактная информация</a>
+					<a href="">Электронная приемная</a>
+					<a style="font-weight: 600; color: #ff7700" href="">Группа Вконтакте</a>
+				</div>
 			</div>
 		</div>
 
-		<span class="text-center">&copy 2023 IT-институт | УГНТУ</span>
-		<span class="author">Дизайн @true_lnz</span>
+		<span class="copyright">&copy 2023 IT-институт | УГНТУ</span>
 	</footer>
 
 	<script src="../web-IT-faculty/script/app.js"></script>
