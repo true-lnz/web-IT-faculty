@@ -18,11 +18,15 @@
 
 **Использованные технологии:**
 
-1. **CSS-фреймворк Bootstrap**
-2. **HTML5 и CSS3**
-3. **JavaScript (ES6+)**
-4. **Webpack**
-5. **Git и GitHub**
+1. **HTML5 и CSS3**
+2. **JavaScript (ES6+)**
+3. **CSS-фреймворк Bootstrap**
+4. **Spring Boot**
+5. **Git**
+
+**To-Do:**
+- Переписать на React.js
+- Интеграция базы данных PostgreSQL
 
 **Ссылки:**
 
